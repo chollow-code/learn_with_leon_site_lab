@@ -2,10 +2,14 @@ body {
   background-color: rgba(130, 231, 231, 0.989);
   border: 5px solid lightgreen;
   width: 80%;
+  margin: auto;
+  padding: 25px;
+  
 }
 
 h1 {
   font-style: italic;
+  font-size: 30px;
   color: white;
   text-align: center;
 }
@@ -46,4 +50,5 @@ footer {
   text-align: center;
   padding-top: 50px;
   margin-bottom: 50px;
+  font-size:x-large
 }
