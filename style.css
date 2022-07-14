@@ -1,10 +1,12 @@
 body {
-  background-color: rgba(130, 231, 231, 0.989);
+  background-color: rgba(52, 239, 239, 0.989);
   border: 5px solid lightgreen;
   width: 80%;
   margin: auto;
   padding: 25px;
-  
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  max-width: fit-content;
 }
 
 h1 {
@@ -19,7 +21,7 @@ h3 {
   font-style: bold;
 }
 a:link {
-  color: rgb(5, 82, 57);
+  color: rgb(9, 255, 193);
 }
 a:hover {
   color: black;
@@ -31,10 +33,11 @@ h2 {
 
 p {
   color: white;
-  display: inline-block;
+  display: block;
   width: 300px;
 }
 article {
+  display: block;
   color: white;
   width: 300px;
 }
@@ -43,9 +46,10 @@ img {
   width: 200px;
   height: auto;
   float: right;
-  position: relative;
-  top: 10px;
+  shape-outside:content-box;
+    
 }
+
 footer {
   text-align: center;
   padding-top: 50px;
